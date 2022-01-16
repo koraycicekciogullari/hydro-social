@@ -2,6 +2,7 @@
   "name": "koraycicekciogullari/hydro-social",
   "description": "A hydro social",
   "license": "MIT",
+  "version": "1.0.0",
   "keywords": [
     "hydro",
     "social"
