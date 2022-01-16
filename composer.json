@@ -1,0 +1,49 @@
+{
+  "name": "koraycicekciogullari/hydro-social",
+  "description": "A hydro social",
+  "license": "MIT",
+  "keywords": [
+    "hydro",
+    "social"
+  ],
+  "type": "library",
+  "authors": [
+    {
+        "name": "Koray Çiçekçioğulları",
+        "email": "k.cicekciogullari@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "illuminate/support": "^6.0|^7.0|^8.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^4.0|^5.0|^6.0",
+    "phpunit/phpunit": "^8.4|^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Koraycicekciogullari\\HydroSocial\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Koraycicekciogullari\\HydroSocial\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Koraycicekciogullari\\HydroSocial\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
